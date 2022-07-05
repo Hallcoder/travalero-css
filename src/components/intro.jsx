@@ -14,7 +14,7 @@ function Intro() {
           things you can learn and you can
         </p>
       </div>
-      <div className="bg-white animate-pulse h-[7em] mt-8 items-center flex justify-center  w-7/12 rounded-md ml-4">
+      <div className="bg-white h-[7em] mt-8 items-center flex justify-center  w-7/12 rounded-md ml-4">
         <div className="w-4/12 flex items-center justify-evenly">
           <ImLocation className="text-gray-500 text-3xl"/>
           <div className="w-10/12">
@@ -36,6 +36,7 @@ function Intro() {
               <p>How many people?</p>
           </div>
         </div>
+        <button className="bg-blue-500 text-white h-12 rounded-md mr-2 w-2/12">Book more</button>
       </div>
     </div>
   );

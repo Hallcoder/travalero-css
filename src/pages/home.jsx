@@ -1,8 +1,10 @@
 import React from 'react';
 import Companies from '../components/companies';
 import Destinations from '../components/Destinations';
+import Info from '../components/info';
 import Intro from '../components/intro';
 import NavBar from '../components/navBar';
+import PopularDestinations from '../components/popularDestinations';
 function Home() {
     return ( 
         <React.Fragment>
@@ -11,6 +13,8 @@ function Home() {
                 <Intro />
                 <Companies />
                 <Destinations />
+                <Info />
+                <PopularDestinations />
             </div>
         </React.Fragment>
      );

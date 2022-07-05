@@ -16,9 +16,9 @@ function Destinations() {
             <Destination  price={"$400.00"} rating={<Rating />} img={Toronto} place={"Canada, Toronto Mountains  "}/>
             <Destination  price={"$400.00"} rating={<Rating />} img={Istanbul} place={"Turkey, Istanbul City"}/>
             <Destination  price={"$400.00"} rating={<Rating />} img={Rwanda} place={"Rwanda, Kigali Clean  City"} />
+            <Destination  price={"$400.00"} rating={<Rating />} img={Toronto} place={"Canada, Toronto Mountains  "}/>
             <Destination  price={"$400.00"} rating={<Rating />} img={Rwanda} place={"Rwanda, Kigali Clean  City"} />
-            <Destination  price={"$400.00"} rating={<Rating />} img={Rwanda} place={"Rwanda, Kigali Clean  City"} />
-            <Destination  price={"$400.00"} rating={<Rating />} img={Rwanda} place={"Rwanda, Kigali Clean  City"} />
+            <Destination  price={"$400.00"} rating={<Rating />} img={Istanbul} place={"Turkey, Istanbul City"}/>
             <Destination  price={"$400.00"} rating={<Rating />} img={Rwanda} place={"Rwanda, Kigali Clean  City"} />
         </div> 
         </div>
