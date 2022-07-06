@@ -44,4 +44,19 @@
  .gridDivs:nth-child(4){
    grid-area:image4;
  }
+ .gallery1{
+ display:grid;
+ margin:auto;
+ grid-template-columns:repeat(2,40.5vw);
+ grid-template-rows:repeat(1,45vh);
+ grid-gap:6px;
+ }
+ .gallery2{
+ display:grid;
+ margin:auto;
+ grid-template-columns:repeat(3,27vw);
+ grid-template-rows:repeat(1,30vh);
+ grid-gap:6px;
+ margin-top:4px;
+ }
 }

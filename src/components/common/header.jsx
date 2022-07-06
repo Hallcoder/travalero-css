@@ -2,10 +2,11 @@ import React from 'react';
 import {AiOutlineLeft, AiOutlineRight} from 'react-icons/ai';
 function Header({title,divRef,link}) {
     const handleNext = () => {
-     divRef.current.scrollLeft += 100;
+     divRef.current.style.scrollBehavior = 'smooth';
+     divRef.current.scrollLeft += 750;
     }
     const handleBack = () => {
-     divRef.current.scrollLeft -= 100;
+     divRef.current.scrollLeft -= 650;
     }
     return ( 
         <div className="flex w-10/12 m-auto items-center justify-between mt-[7em]">

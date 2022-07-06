@@ -11,13 +11,13 @@ import { useRef } from "react";
 function TopGuiders() {
   let divRef = useRef();
   return (
-    <div className="flex flex-col h-[60vh] justify-start w-screen  m-auto">
+    <div className="flex flex-col h-[60vh] w-screen  m-auto">
       <div className="w-full">
         <Header divRef={divRef} title={"Best Guide Of The Year"} />
       </div>
       <div
         ref={divRef}
-        className="flex h-[50vh]  m-auto OverFlow gap-2 max-w-screen w-10/12 "
+        className="flex h-[60vh]  m-auto OverFlow gap-2 max-w-screen w-10/12 "
       >
         <Guide img={guide5} name="J.Cole" alt="guide5" rating={<Rating />} />
         <Guide img={guide2} name="N.Angel" alt="guide2" rating={<Rating />} />

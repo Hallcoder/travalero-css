@@ -7,16 +7,16 @@ function Companies() {
   return (
     <div className="w-9/12 flex m-auto mt-[4em] justify-around items-center">
       <div className="w-4/12">
-        <img className="w-10/12 h-[10em]" src={Google} alt="" />
+        <img className="w-10/12" src={Google} alt="" />
       </div>
       <div className="w-4/12">
-        <img className="w-10/12 h-[10em]" src={Microsoft} alt="" />
+        <img className="w-10/12" src={Microsoft} alt="" />
       </div>
       <div className="w-3/12">
-        <img className="w-10/12 h-[10em]" src={PayPal} alt="" />
+        <img className="w-10/12" src={PayPal} alt="" />
       </div>
       <div className="w-3/12">
-        <img className="w-10/12 h-[10em]" src={Netflix} alt="" />
+        <img className="w-10/12" src={Netflix} alt="" />
       </div>
     </div>
   );
