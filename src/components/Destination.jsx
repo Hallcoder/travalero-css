@@ -1,8 +1,8 @@
 import React from 'react';
 function Destination({place,rating,price,img}) {
     return (  
-        <div className="h-[5em] flex flex-col min-w-[22em] w-3/12 border-2 border-white rounded-md">
-            <div><img src={img} alt="" className="w-full rounded-sm h-[22em]" /></div>
+        <div className="flex flex-col  min-w-[20em] justify-between w- border-2 border-white rounded-md">
+            <div><img src={img} alt="" className="w-full shadow-xl object-cover rounded-sm h-[20em]" /></div>
             <div className="flex justify-between items-center">
                 <h3 className=" w-9/12 font-semibold">{place}</h3>
                 <span>{rating}</span>

@@ -7,7 +7,7 @@ function Info() {
             <p className="text-lg text-white">Amazing tour</p>
           </div>
           <div className="w-2/12 items-center flex flex-col">
-            <h3 className="text-2xl text-white">12</h3>
+            <h3 className="text-2xl text-white">12+</h3>
             <p className="text-lg text-white">Years Experience</p>
           </div>
           <div className="w-2/12 items-center flex flex-col">

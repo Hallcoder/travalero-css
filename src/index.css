@@ -23,11 +23,15 @@
  }
  .GRID{
   display:grid;
-  grid-template-colums:repeat(2,20vw);
-  grid-template-rows:repeat(3,20vw);
+  grid-template-colums:repeat(2,16%);
+  grid-template-rows:repeat(3,22vh);
   grid-template-areas:"image1 image2"
   "image1 image3"
-  "image1 image4"
+  "image1 image4";
+  grid-gap:8px;
+ }
+ .gridDivs>img{
+ border-radius:4px;
  }
  .gridDivs:nth-child(1){
    grid-area:image1;
