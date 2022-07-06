@@ -16,7 +16,6 @@
  }
  .OverFlow{
   overflow-x:scroll;
-  overflow-y:visible;
  }
  html{
   scroll-behavior:smooth;

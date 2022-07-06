@@ -3,7 +3,7 @@ import { AiFillStar } from 'react-icons/ai';
 function Rating() {
     return ( 
         <div className="flex w-1/12 text-orange-500">
-            <AiFillStar />
+            <AiFillStar className="text-xl"/>
             <h1>5.0</h1>
         </div>
      );

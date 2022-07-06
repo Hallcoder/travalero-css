@@ -5,6 +5,7 @@ import Info from '../components/info';
 import Intro from '../components/intro';
 import NavBar from '../components/navBar';
 import PopularDestinations from '../components/popularDestinations';
+import TopGuiders from '../components/TopGuiders';
 function Home() {
     return ( 
         <React.Fragment>
@@ -15,6 +16,7 @@ function Home() {
                 <Destinations />
                 <Info />
                 <PopularDestinations />
+                <TopGuiders />
             </div>
         </React.Fragment>
      );

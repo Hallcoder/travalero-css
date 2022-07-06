@@ -2,12 +2,9 @@ import React from 'react';
 import {AiOutlineLeft, AiOutlineRight} from 'react-icons/ai';
 function Header({title,divRef,link}) {
     const handleNext = () => {
-    // Array.from(divRef.current)[0].style.scrollBehavior = "smooth";
-     console.log(divRef.current);
      divRef.current.scrollLeft += 100;
     }
     const handleBack = () => {
-        console.log(divRef);
      divRef.current.scrollLeft -= 100;
     }
     return ( 

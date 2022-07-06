@@ -9,7 +9,7 @@ import Rating from './rating';
 function Destinations() {
     let divRef = useRef();
     return ( 
-        <div className="flex flex-col   w-screen m-auto">
+        <div className="flex flex-col  w-screen m-auto">
         <div><Header divRef={divRef} title={"Top Destinations"}/></div>  
         <div ref={divRef} className="flex h-[60vh]  flex-nowrap gap-4  OverFlow m-auto w-10/12 max-w-screen">
             <Destination  price={"$400.00"} rating={<Rating />} img={Dubai} place={"Dubai, Doha City"} />
