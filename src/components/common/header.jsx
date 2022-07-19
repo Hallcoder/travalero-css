@@ -10,13 +10,13 @@ function Header({title,divRef,link}) {
     }
     return ( 
         <div className="flex w-10/12 m-auto items-center justify-between mt-[7em]">
-        <h1 className="text-3xl w-11/12 font-semibold">{title}</h1>
-          {!link &&  <div className="flex justify-around w-1/12">
-                <AiOutlineLeft onClick={handleBack} className="text-2xl border-2 opacity-40 border-black" />
-                <AiOutlineRight onClick={handleNext} className="text-2xl border-2 border-blue-500 text-blue-500 shadow-xl"/>
+        <h1 id='headerHeading' className="text-3xl w-11/12 font-semibold">{title}</h1>
+          {!link &&  <div className=" nextAndBack flex justify-around w-1/12">
+                <AiOutlineLeft onClick={handleBack} className="left text-2xl border-2 opacity-40 border-black" />
+                <AiOutlineRight onClick={handleNext} className="right text-2xl border-2 border-blue-500 text-blue-500 shadow-xl"/>
             </div> }
             <div>
-                <a href="#" className="text-blue-500 underline">{link}</a>
+                <a href="#" id='link' className="text-blue-500 underline">{link}</a>
             </div>
         </div>
      );

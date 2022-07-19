@@ -2,14 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 @layer utilities{
+  *{
+    margin:0;
+    padding:0;
+  }
  .imageBack{
   background-image:url('./images/travelMan.png');
   width:100%;
   background-size:cover;
   background-repeat:no-repeat;
-  background-opacity:0.4;
   overflow-x:hidden;
-  /* background-color:rgba(0,0,0,0.5); */
  }
  ::-webkit-scrollbar{
   display:none;
@@ -58,5 +60,69 @@
  grid-template-rows:repeat(1,30vh);
  grid-gap:6px;
  margin-top:4px;
+ }
+ @media screen and (max-width:960px){
+  #nav{
+    display:none;
+  }
+  .imageBack{
+    font-size:0.6em;
+    height:fit-content;
+    border:3px solid yellow;
+  }
+  .textOpacity{
+    height:12em;
+    margin-top:2em;
+    margin-bottom:0;
+  }
+  .textOpacity>p{
+    font-size:2.4em;
+    margin-top:3rem;
+  }
+  .whiteDiv{
+    margin-top:7rem;
+    width:90%;
+    font-size:0.8em;
+    margin-bottom:4em;
+  }
+  .whiteDiv h3{
+    font-size:1.2em;
+  }
+  #travelText{
+    font-size:1.2em;
+    margin-top:.7em;
+    color:blue;
+    line-height:1.3;
+    display: inline-block;  
+  }
+ .whiteDiv .icon{
+  font-size:2em;
+  color:#000000;
+  }
+  #headerHeading{
+    font-size:1.2em;
+  }
+  .nextAndBack{
+    width:20%;
+  }
+  #link{
+    display:inline-block;
+    width:120%;
+    font-size:.6em;
+  }
+  .info{
+    width:30%;
+  }
+  .lastImageDiv{
+    height:45vh;
+    min-height:fit-content;
+  }
+  .TextDiv>h1{
+    font-size:1.2em;
+    line-height:1.2;
+  }
+  .ImageDiv>img{
+    object-fit:cover;
+  }
  }
 }

@@ -8,7 +8,7 @@ function NavBar() {
         <h1 className="text-4xl text-blue-500">Travelo</h1>
       </div>
       <div id="links" className="w-4/12 justify-center">
-        <ul className="list-none flex text-sm items-center h-full justify-around">
+        <ul className="list-none flex text-sm md: items-center h-full justify-around">
             <li className="hover:border-b-2 border-blue-400  cursor-pointer transition-all delay-200">Home</li>
             <li className="hover:border-b-2 border-blue-400 cursor-pointer transition-all delay-200">Destinations</li>
             <li className="hover:border-b-2 border-blue-400 cursor-pointer transition-all delay-200">Gallery</li>

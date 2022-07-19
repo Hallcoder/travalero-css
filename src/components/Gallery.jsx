@@ -7,7 +7,7 @@ import Header from "./common/header";
 function Gallery() {
   return (
     <>
-      <Header title={"Trip Gallery"}/>
+      <Header title={"Trip Gallery"} link='View More'/>
       <div className="gallery1">
         <img className="w-full  rounded-lg object-cover h-full" src={flowers} alt="" />
         <img className="w-full  rounded-lg object-cover h-full" src={ocean} alt="" />
